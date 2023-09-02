@@ -1,0 +1,122 @@
+.how {
+  color: #83888f;
+  padding-top: 150px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px; /* 133.333% */
+}
+.section-card img {
+  max-width: 90px;
+}
+.section-card {
+  max-width: 285px;
+  padding-top: 80px;
+  align-items: center;
+  //   display: flex;
+}
+.section-card h5 {
+  max-width: 255px;
+  color: #333d4b;
+  font-family: Fraunces 9pt;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; /* 112.5% */
+  padding-top: 38px;
+  padding-bottom: 42px;
+}
+.section-card p {
+  max-width: 285px;
+  color: #333d4b;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.cards {
+  display: flex;
+  align-items: center;
+  // text-align: center;
+  // justify-content: space-between;
+  gap: 95px;
+  margin: 0 auto;
+}
+@media (max-width: 800px) {
+  .section-card h5 {
+    max-width: 255px;
+    color: #333d4b;
+    font-family: Fraunces 9pt;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    padding-top: 38px;
+    padding-bottom: 42px;
+    max-width: 223px;
+  }
+  .section-card p {
+    color: #333d4b;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    max-width: 223px;
+  }
+  .cards {
+    gap: 30px;
+    // max-width: 223px;
+  }
+  .section-card {
+    max-width: 350px;
+  }
+}
+@media (max-width: 520px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .section-card {
+    padding-top: 40px;
+  }
+  .section-card h5 {
+    color: #333d4b;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 114.286% */
+    max-width: 270px;
+  }
+  .section-card p {
+    color: #333d4b;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    max-width: 327px;
+  }
+  .btn {
+   margin-left: 50px;
+  }
+}
+.btn  {
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px; /* 138.889% */
+  border-radius: 6px;
+  background: #0e8784;
+  padding: 15px 31px;
+  border: none;
+  margin-top: 47px;
+}

@@ -1,0 +1,136 @@
+.why-choose {
+  padding-top: 200px;
+}
+.chose-content {
+  background: #2c343e;
+  border-radius: 10px;
+  padding-top: 100px;
+  padding-bottom: 86px;
+}
+.chos-title h4 {
+  padding-top: 80px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 120% */
+}
+.chos-title p {
+  max-width: 540px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 286px;
+}
+.bestquelte img {
+  max-width: 71px;
+  // padding-top: 50px;
+  padding-left: 130px;
+  padding-right: 130px;
+  flex-shrink: 0;
+}
+.bestquelte {
+  max-width: 350px;
+  // margin-top: -100px;
+  border-radius: 8px;
+  background: #0e8784;
+  align-items: center;
+  text-align: center;
+}
+
+.best-text {
+  padding: 56px 48px 24px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 120% */
+  // padding: 56px 48px;
+}
+.bestquelte-text {
+  color: #fefcf7;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  max-width: 255px;
+  margin: 0 auto;
+  padding-bottom:  48px;
+}
+.bestquelte-card {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 30px;
+  margin-top: -250px;
+}
+@media(max-width:975px){
+.bestquelte{
+max-width: 250px;
+}
+.best-text {
+  padding: 56px 48px 24px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+}
+@media(max-width:871px){
+  .bestquelte-card{
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: -330px;
+  }
+  .bestquelte{
+    max-width: 500px;
+    // height: 180px;
+  }
+  .best-text{
+    padding: 20px 180px;
+  }
+}
+@media(max-width:518px){
+  .chos-title p{
+    max-width: 340px;
+  }
+  .best-text {
+    padding: 20px 115px;
+}
+}
+@media(max-width:400px){
+  .chos-title p{
+    display: none;
+  }
+  .best-text {
+    padding: 28px 38px;
+}
+.chos-title h4{
+  // margin-bottom: 353px;
+  padding-top: 54px;
+  max-width: 275px;
+  margin: 0 auto;
+}
+.chose-content{
+  padding-top: 0;
+  // max-width: 900px;
+  height: 700px;
+}
+}
